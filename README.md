@@ -1,5 +1,7 @@
 # Skeleton for web app using AngularJS+Material Design+TypeScript+Webpack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kiranchowdhury/ng-ui-framework.svg)](https://greenkeeper.io/)
+
 
 The intention of this repository is to modernize the frontend devolopment using [AngularJS](https://github.com/angular/angular.js). This repository provides the skeleton for [AngularJS](https://github.com/angular/angular.js) projects, in such a way that it can be easily moved to [Angular](https://angular.io/). It also uses [AngularJS Material Design](https://material.angularjs.org/latest/) for various UI components. 
 This project is using [NPM](https://github.com/npm/npm) as package manager, [TypeScript](https://github.com/Microsoft/TypeScript) and [Webpack](https://github.com/webpack/webpack) as module loader.
