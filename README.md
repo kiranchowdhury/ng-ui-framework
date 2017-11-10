@@ -11,7 +11,7 @@ This is, by no means, ment to be used blindly in production.
 - [x] TSLint
 - [x] @types
 - [x] Webpack 3 + Webpack dev server
-- [x] Karma + Jasmine
+- [ ] Karma + Jasmine (Comming Soon)
 - [ ] Protractor
 - [x] Styling using SASS
 - [x] NPM
