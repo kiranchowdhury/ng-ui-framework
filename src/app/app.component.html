@@ -1,0 +1,57 @@
+<div layout="column" flex>
+    <div layout="row" style="border-bottom:2px solid #495f68;">
+        <div flex=20>
+            <img class="ps-icon" src="./assets/img/logo_white_small.png">
+            Welcome Kiran.
+        </div>
+        <div flex="70" style="margin-top:2px">
+            <md-icon md-font-icon="material-icons md-24 md-dark">add_box</md-icon>Create Quote
+            <md-icon class="icon_home" aria-label="Home"></md-icon>
+            <!-- <md-button class="md-raised md-primary">Create Quote</md-button>
+            <md-button class="md-raised md-warn">Return to PCS</md-button>
+            <md-button class="md-raised md-success">My Profile</md-button> -->
+        </div>
+        <div flex>
+                
+                <md-input-container>
+                        
+                        <md-select ng-model="$ctrl.selecteItem" md-selected-text="$ctrl.getSelectedText()">  
+                            <md-optgroup label="select languages">
+                                  <md-option ng-value="item.name" ng-repeat="item in $ctrl.items">{{item.name}}</md-option>
+                                </md-optgroup>
+                        </md-select>
+                </md-input-container>
+                
+        </div>
+
+    </div>
+
+<!-- 
+    <div class="ps-title-bar">
+        <div layout="row">
+            <div flex=30>
+                <img class="ps-icon" src="./assets/img/logo_white_small.png">
+                <div class="ps-title-area">
+                    <p class="ps-logo-title">Welcome Kiran Chowdhury</p>
+                    <p class="ps-logo-subtitle">Role: NA Distributor All Quotes</p>
+                </div>
+            </div>
+            <div flex="50">
+                    <md-icon md-font-icon="material-icons md-24 md-dark">add_box</md-icon>Create Quote
+                    <md-icon class="icon_home" aria-label="Home"></md-icon>
+                    <md-button class="md-raised md-primary">Create Quote</md-button>
+                    <md-button class="md-raised md-warn">Return to PCS</md-button>
+            </div>
+             <div flex>
+                    <md-input-container>
+                            <md-select md-selected-text="English">
+                                    <md-optgroup label="items">
+                                      <md-option ng-value="item.name" ng-repeat="item in $ctrl.items">{{item.name}}</md-option>
+                                    </md-optgroup>
+                            </md-select>
+                    </md-input-container>
+            </div>             
+        </div>
+    </div> -->
+    <div>This is great</div>
+</div>
